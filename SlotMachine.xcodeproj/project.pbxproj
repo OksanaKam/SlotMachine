@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B9893AAA29DC65BC00E405FA /* SlotMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893AA929DC65BC00E405FA /* SlotMachineApp.swift */; };
-		B9893AAC29DC65BC00E405FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893AAB29DC65BC00E405FA /* ContentView.swift */; };
 		B9893AAE29DC65C000E405FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9893AAD29DC65C000E405FA /* Assets.xcassets */; };
 		B9893AB129DC65C000E405FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9893AB029DC65C000E405FA /* Preview Assets.xcassets */; };
 		B9893ABB29DC65C100E405FA /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893ABA29DC65C100E405FA /* SlotMachineTests.swift */; };
 		B9893AC529DC65C100E405FA /* SlotMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893AC429DC65C100E405FA /* SlotMachineUITests.swift */; };
 		B9893AC729DC65C100E405FA /* SlotMachineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893AC629DC65C100E405FA /* SlotMachineUITestsLaunchTests.swift */; };
+		B9893AD429DC79C400E405FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9893AD329DC79C400E405FA /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		B9893AA629DC65BC00E405FA /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9893AA929DC65BC00E405FA /* SlotMachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineApp.swift; sourceTree = "<group>"; };
-		B9893AAB29DC65BC00E405FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9893AAD29DC65C000E405FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9893AB029DC65C000E405FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9893AB629DC65C100E405FA /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		B9893AC029DC65C100E405FA /* SlotMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9893AC429DC65C100E405FA /* SlotMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineUITests.swift; sourceTree = "<group>"; };
 		B9893AC629DC65C100E405FA /* SlotMachineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9893AD329DC79C400E405FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				B9893AA929DC65BC00E405FA /* SlotMachineApp.swift */,
-				B9893AAB29DC65BC00E405FA /* ContentView.swift */,
 				B9893AAD29DC65C000E405FA /* Assets.xcassets */,
 				B9893AAF29DC65C000E405FA /* Preview Content */,
+				B9893AD329DC79C400E405FA /* ContentView.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9893AAC29DC65BC00E405FA /* ContentView.swift in Sources */,
 				B9893AAA29DC65BC00E405FA /* SlotMachineApp.swift in Sources */,
+				B9893AD429DC79C400E405FA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
